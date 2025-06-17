@@ -1,23 +1,17 @@
-import { useState } from 'react'
-import NavBar from './components/NavBar/NavBar'
-import DiscountBar from './components/NavBar/DiscountBar'
-import SubNavBar from './components/NavBar/SubNavBar'
-import Footer from './components/Footer/Footer'
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home/Home'
+import Layout from './Layouts/Layout';
+import CategorPages from './pages/Categories/CategoriesPage';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <DiscountBar />
-      <SubNavBar />
-      <NavBar />
-      {/* <div className='bg-red'>count {count}</div>
-      <button className='bg-blue-300 p-2' onClick={() => setCount(prev => prev + 1)}> add to the counter</button> */}
-      <Home />
-      <Footer />
-    </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="categorias" element={<CategorPages />} />
+      </Route>
+    </Routes>
   )
 }
 
