@@ -1,6 +1,6 @@
 const VideosSection = () => {
     return (
-        <section className="relative bg-light-rose h-100  lg:h-[20rem] w-full overflow-hidden">
+        <section className="relative bg-light-rose xl:h-[66vh] 2xl:h-[58vh]  lg:h-[42vh] w-full overflow-hidden">
         {/* Imagen central */}
         <img
           src="/DiscoSection-WithOut-BackGround.png"

@@ -2,7 +2,7 @@ import type {FC} from "react"
 
 const HeroBannerMove: FC = () => {
     return (
-      <section className="relative bg-light-rose h-108 md:h-[32rem] lg:h-[25rem] sm:h-[18rem] w-full overflow-hidden">
+      <section className="relative bg-light-rose h-108 md:h-[32rem]  lg:h-[28rem] 2xl:h-[65vh] w-full overflow-hidden">
         {/* Imagen central */}
         <img
           src="/Hero image.png"
@@ -26,13 +26,13 @@ const HeroBannerMove: FC = () => {
         /> */}
   
         {/* Branding vertical */}
-        <div className="absolute right-16 lg:right-62 top-32 font-bold text-2xl text-orange-500 tracking-wider rotate-[-90deg]">
+        <div className="absolute right-16 lg:right-62 top-32 font-bold text-2xl  text-orange-500 tracking-wider rotate-[-90deg] 2xl:bottom-34 2xl:text-3xl 2xl:right-27">
           Hush Puppies ®
         </div>
   
         {/* Botón */}
-        <div className="absolute bottom-8 right-82 z-20 lg:right-135">
-          <button className="text-[#b5a59e] px-8 py-1 bg-white hover:bg-gray-100 transition text-base font-semibold shadow-[0px_4px_10px_6px_rgba(0,0,0,0.15)]">
+        <div className="absolute 2xl:bottom-18 bottom-13 right-82 z-20 lg:right-103 2xl:right-119">
+          <button className="text-[#b5a59e] px-8 py-3 bg-white hover:bg-gray-100 transition text-base font-semibold 2xl:w-55 shadow-[0px_4px_10px_6px_rgba(0,0,0,0.15)]">
             SHOP NOW
           </button>
         </div>

@@ -1,20 +1,25 @@
-import type {FC} from "react";
-import CategoryCard from "./CategoryCard";
+import type { FC } from 'react';
+import CategoryCard from './CategoryCard';
 
 const CategoriesGrid: FC = () => {
-    return (
-      <section className="flex justify-center sm:h-96 lg:h-136 min-h-0 p-10">
-        {/* Fila 1: Hombre y Mujer */}
+  return (
+    <section
+      className='
+      flex justify-center py-9 px-4 sm:px-6 md:px-8 lg:px-[192px] xl:px-[250px]
+    '
+    >
+      {/* Grid que "auto‐ajusta" cada columna al tamaño de su contenido */}
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 xl:gap-[50px]'>
+        {/* Cada wrapper fija el tamaño de la tarjeta */}
+        <div className='w-full aspect-square max-w-[500px] xl:max-w-[738px] mx-auto'>
+          <CategoryCard image='/categoria-hombre.png' label='HOMBRE' />
+        </div>
+        <div className='w-full aspect-square max-w-[500px] xl:max-w-[738px] mx-auto'>
+          <CategoryCard image='/categoria-mujeres.png' label='MUJER' />
+        </div>
+      </div>
+    </section>
+  );
+};
 
-        <div className="grid grid-cols-2 max-w-5xl gap-8 items-stretch h-full">
-            <CategoryCard image="/categoria-hombre.png" label="HOMBRE" />
-            <CategoryCard image="/categoria-mujeres.png" label="MUJER" />
-          </div>
-  
-  
-      
-      </section>
-    );
-  };
-  
-  export default CategoriesGrid;
+export default CategoriesGrid;

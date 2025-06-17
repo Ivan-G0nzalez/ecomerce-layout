@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
       <DiscountBar />
       <SubNavBar />
       <NavBar />
@@ -17,7 +17,7 @@ function App() {
       <button className='bg-blue-300 p-2' onClick={() => setCount(prev => prev + 1)}> add to the counter</button> */}
       <Home />
       <Footer />
-    </>
+    </div>
   )
 }
 

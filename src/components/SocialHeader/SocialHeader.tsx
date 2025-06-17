@@ -5,7 +5,7 @@ import { FaInstagram } from 'react-icons/fa';
 const SocialHeader: React.FC = () => {
   return (
     <div className='text-center mb-8 bg-light-grey py-7'>
-      <h2 className='text-4xl font-libre text-gray-600 mb-4'>
+      <h2 className='text-4xl   text-gray-600 mb-4'>
         @HUSHPUPPPIESCO
       </h2>
       <div className='flex justify-center'>
