@@ -9,10 +9,10 @@ interface FooterSectionProps {
 const FooterSection: React.FC<FooterSectionProps> = ({ section }) => {
   return (
     <div>
-      <h3 className="text-sm font-libre font-semibold text-gray-800 uppercase tracking-wide mb-4">
+      <h3 className="text-sm 2xl:text-2xl font-libre font-semibold text-gray-800 uppercase tracking-wide mb-4">
         {section.title}
       </h3>
-      <ul className="space-y-2">
+      <ul className="space-y-2 ">
         {section.links.map((link, index) => (
           <FooterLink key={index} link={link} />
         ))}

@@ -10,7 +10,7 @@ const FooterLink: React.FC<FooterLinkProps> = ({ link }) => {
     <li>
       <a 
         href={link.href} 
-        className="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+        className="text-base 2xl:text-xl text-gray-600 hover:text-gray-800 transition-colors"
       >
         {link.label}
       </a>

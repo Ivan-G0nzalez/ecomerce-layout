@@ -29,13 +29,13 @@ const data = [
 
 const FeaturedImageGallery = () => {
   return (
-    <div className='grid grid-cols-6 gap-4 px-18'>
+    <div className='grid grid-cols-6 gap-8 2xl:gap-13 px-30 w-full'>
       {data.map(({ imgelink }, index) => (
         <div key={index}>
           <img
             
             src={imgelink}
-            className='h-70 w-70 cursor-pointer  object-cover object-center'
+            className='h-full w-full cursor-pointer  object-cover object-center'
             alt='gallery-image'
           />
         </div>

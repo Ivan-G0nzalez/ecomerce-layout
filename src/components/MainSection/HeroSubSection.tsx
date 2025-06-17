@@ -3,10 +3,10 @@ import BigCard from '../Categories/BigCard';
 
 const HeroSubSection = () => {
   return (
-    <section className='bg-white h-screen w-full px-20 pt-8'>
-      <div className='grid grid-cols-12 gap-4 h-full min-h-0'>
+    <section className='bg-white h-screen w-full px-30 pt-8'>
+      <div className='grid grid-cols-2 gap-8 h-full min-h-0'>
         {/* Columna izq. */}
-        <div className='col-span-6 h-full min-h-0'>
+        <div className=' h-full min-h-0'>
         <BigCard
             label='Categoria'
             image='/Perro4.jpg'
@@ -14,7 +14,7 @@ const HeroSubSection = () => {
         </div>
 
         {/* Columna der. dividida en 2 filas iguales */}
-        <div className='col-span-6 grid grid-rows-2 h-full min-h-0'>
+        <div className='grid grid-rows-2 h-full min-h-0'>
           <AlternativeCategoryCard
             label='Mujer'
             image='/zapatillas/zapatos de mujeres.jpg'
