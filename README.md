@@ -1,54 +1,95 @@
-# React + TypeScript + Vite
+# 🛍️ E-commerce Layout Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un proyecto de maquetación web para un e-commerce moderno desarrollado con React, TypeScript y Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 19** - Biblioteca de JavaScript para interfaces de usuario
+- **TypeScript** - Superset de JavaScript con tipado estático
+- **Vite** - Herramienta de construcción rápida para desarrollo
+- **Tailwind CSS 4** - Framework CSS utility-first
+- **React Router DOM** - Enrutamiento para aplicaciones React
+- **Redux Toolkit** - Gestión de estado global con patron Redux
+- **React Redux** - Integración de Redux con React
+- **React Icons** - Biblioteca de iconos para React
 
-## Expanding the ESLint configuration
+## ✨ Características del Proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎨 Componentes de UI
+- **NavBar** - Barra de navegación con logo, búsqueda y carrito
+- **Hero Banner** - Sección principal con imagen destacada
+- **Categorías** - Grid de categorías de productos
+- **Productos** - Lista de productos con filtros
+- **Footer** - Pie de página con enlaces y certificaciones
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 🛠️ Funcionalidades
+- Navegación entre páginas con React Router
+- Gestión de estado global con Redux Toolkit
+- Filtros de productos por categoría, precio y talla
+- Diseño responsive con Tailwind CSS
+- Galería de imágenes de productos
+- Carrito de compras (interfaz)
+
+
+## 🏃‍♂️ Cómo Ejecutar el Proyecto
+
+### Prerrequisitos
+- Node.js (versión 18 o superior)
+- npm o yarn
+
+### Instalación
+
+1. **Clona el repositorio**
+```bash
+git clone <url-del-repositorio>
+cd maquetacionWeb
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. **Instala las dependencias**
+```bash
+npm install
 ```
+
+3. **Ejecuta el servidor de desarrollo**
+```bash
+npm run dev
+```
+
+4. **Abre tu navegador**
+Navega a `http://localhost:5173` para ver la aplicación
+
+### Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye la aplicación para producción
+- `npm run preview` - Previsualiza la build de producción
+- `npm run lint` - Ejecuta el linter para verificar el código
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── components/          # Componentes reutilizables
+│   ├── Buttons/        # Botones personalizados
+│   ├── Cards/          # Tarjetas de productos
+│   ├── Categories/     # Componentes de categorías
+│   ├── Footer/         # Pie de página
+│   ├── MainSection/    # Sección principal
+│   ├── NavBar/         # Barra de navegación
+│   ├── Products/       # Componentes de productos
+│   └── SocialHeader/   # Header social
+├── hooks/              # Custom hooks
+├── interfaces/         # Tipos TypeScript
+├── Layouts/           # Layouts de la aplicación
+├── pages/             # Páginas de la aplicación
+├── store/             # Configuración de Redux
+└── main.tsx           # Punto de entrada
+```
+
+## 🎯 Patrones de Diseño
+
+- **Redux Pattern** - Gestión centralizada del estado
+- **Component Composition** - Composición de componentes
+- **Custom Hooks** - Lógica reutilizable
+- **TypeScript Interfaces** - Tipado fuerte para mejor desarrollo
+
