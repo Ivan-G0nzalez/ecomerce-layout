@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "name": "Zapato azul",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/1.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 2,
+        "name": "Zapato rojo",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/2.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 3,
+        "name": "Zapato verde",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/3.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 4,
+        "name": "Zapato gris",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/4.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 5,
+        "name": "Zapato cafe",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/5.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 6,
+        "name": "Zapato miel",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/6.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 7,
+        "name": "Zapato aguamarina",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/7.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 8,
+        "name": "Zapato piel",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/8.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 9,
+        "name": "Zapato perla",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/9.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 10,
+        "name": "Zapato marinado",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/10.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 11,
+        "name": "Zapato azul1",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/11.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 12,
+        "name": "Zapato azul2",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/12.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 13,
+        "name": "Zapato azul3",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/13.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 14,
+        "name": "Zapato azul4",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/14.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 15,
+        "name": "Zapato azul5",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/15.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 16,
+        "name": "Zapato azul6",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/16.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 17,
+        "name": "Zapato azul7",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/17.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 18,
+        "name": "Zapato azul8",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/18.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 19,
+        "name": "Zapato azul9",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/19.jpg",
+        "colors": ["red", "navy"]
+    },
+    {
+        "id": 20,
+        "name": "Zapato azul10",
+        "price": 5000,
+        "referencia": "G40",
+        "photo": "img/20.jpg",
+        "colors": ["red", "navy"]
+    }
+]
