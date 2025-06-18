@@ -15,11 +15,6 @@ const Newsletter: React.FC<NewsletterProps> = ({ onSubmit }) => {
     }
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      handleSubmit();
-    }
-  };
 
   return (
     <div>
@@ -36,7 +31,7 @@ const Newsletter: React.FC<NewsletterProps> = ({ onSubmit }) => {
             placeholder='E-MAIL'
             className='px-3 py-3 2xl:py-5 w-full outline-none font-semibold'
           />
-          <button type='submit' className='px-2 text-2xl 2xl:text-3xl'>
+          <button type='submit' className='px-2 text-2xl 2xl:text-3xl' onClick={handleSubmit}>
             <IoIosArrowForward />
           </button>
         </div>

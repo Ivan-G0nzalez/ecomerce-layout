@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import ProductsGrid from './ProductsGrid';
-import type { Product } from '~/interfaces/product.types';
 import Sidebar from './SideBar';
 import { useAppDispatch } from '~/hooks/useShoesSelector'; 
 import { loadShoes } from '~/store/shoes';
@@ -99,7 +98,7 @@ const Products = () => {
 
   const toggleSelection = (
     item: string,
-    selectedItems: string[],
+    _selectedItems: string[],
     setSelectedItems: React.Dispatch<React.SetStateAction<string[]>>
   ) => {
     setSelectedItems((prev) =>

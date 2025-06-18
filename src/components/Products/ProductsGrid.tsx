@@ -1,8 +1,8 @@
-import type { Product } from '~/interfaces/product.types';
+import type { Shoe } from '~/interfaces/product.types';
 import ProductCard from '../ProductCards/ProductCard';
 
 const ProductsGrid: React.FC<{
-  products: Product[];
+  products: Shoe[];
   favorites: number[];
   onToggleFavorite: (productId: number) => void;
 }> = ({ products, favorites, onToggleFavorite }) => (

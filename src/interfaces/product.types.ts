@@ -8,18 +8,14 @@ export interface Product {
 }
 
 export interface ProductCardProps {
-  product: Product;
+  product: Shoe;
   isFavorite: boolean;
   onToggleFavorite: (productId: number) => void;
 }
 
 // Interface for shoes from the JSON data
-export interface Shoe {
-  name: string;
-  price: number;
+export interface Shoe extends Product {
   referencia: string;
-  foto: string;
-  colors: string[];
 }
 
 // Interface for the shoes state in Redux
