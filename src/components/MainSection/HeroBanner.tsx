@@ -1,4 +1,5 @@
 import type {FC} from "react"
+import { Link } from "react-router-dom";
 
 const HeroBannerMove: FC = () => {
     return (
@@ -32,9 +33,9 @@ const HeroBannerMove: FC = () => {
   
         {/* Botón */}
         <div className="absolute 2xl:bottom-18 bottom-13 right-82 z-20 lg:right-103 2xl:right-119">
-          <button className="text-[#b5a59e] px-8 py-3 bg-white hover:bg-gray-100 transition text-base font-semibold 2xl:w-55 shadow-[0px_4px_10px_6px_rgba(0,0,0,0.15)]">
+          <Link to='categorias' className="text-[#b5a59e] px-8 py-3 bg-white hover:bg-gray-100 transition text-base font-semibold 2xl:w-55 shadow-[0px_4px_10px_6px_rgba(0,0,0,0.15)]">
             SHOP NOW
-          </button>
+          </Link>
         </div>
       </section>
     );

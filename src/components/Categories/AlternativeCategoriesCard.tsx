@@ -10,7 +10,7 @@ const AlternativeCategoryCard: FC<Props> = ({ image, label }) => {
     return (
       <div className="relative w-full h-full overflow-hidden group">
         <img src={image} alt={label} className="w-full h-full object-cover" />
-        <CategoryButtons label={label} invertColor={true} root='categorias'/>
+        <CategoryButtons label={label} invertColor={true} />
       </div>
     );
   };
